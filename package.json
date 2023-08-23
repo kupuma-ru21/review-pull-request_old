@@ -11,7 +11,8 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_d9799f3e6f74e74",
     "prettier:fix": "prettier --write 'src/**/*.{ts,tsx}'",
-    "compile": "tsc"
+    "compile": "tsc",
+    "cSpell": "pnpm cspell 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@types/node": "20.5.3",
@@ -34,6 +35,7 @@
     "@storybook/react": "^7.3.2",
     "@storybook/testing-library": "^0.2.0",
     "chromatic": "^6.23.0",
+    "cspell": "^7.0.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-storybook": "^0.6.13",
     "prettier": "3.0.2",
