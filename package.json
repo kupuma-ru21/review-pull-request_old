@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_d9799f3e6f74e74"
+    "chromatic": "npx chromatic --project-token=chpt_d9799f3e6f74e74",
+    "prettier:fix": "prettier --write 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@types/node": "20.5.3",
@@ -33,6 +34,7 @@
     "@storybook/testing-library": "^0.2.0",
     "chromatic": "^6.23.0",
     "eslint-plugin-storybook": "^0.6.13",
+    "prettier": "3.0.2",
     "storybook": "^7.3.2"
   }
 }
