@@ -11,7 +11,8 @@
       "error",
       "ignorePackages",
       { "ts": "never", "tsx": "never" }
-    ]
+    ],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
   },
   "globals": { "React": true }
 }
