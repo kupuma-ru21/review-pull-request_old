@@ -34,6 +34,7 @@
     "@storybook/react": "^7.3.2",
     "@storybook/testing-library": "^0.2.0",
     "chromatic": "^6.23.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-storybook": "^0.6.13",
     "prettier": "3.0.2",
     "storybook": "^7.3.2"

@@ -1,6 +1,17 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "plugin:storybook/recommended"
-  ]
+    "plugin:storybook/recommended",
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      { "ts": "never", "tsx": "never" }
+    ]
+  },
+  "globals": { "React": true }
 }
