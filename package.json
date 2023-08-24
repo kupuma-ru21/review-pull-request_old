@@ -37,6 +37,7 @@
     "@storybook/nextjs": "^7.3.2",
     "@storybook/react": "^7.3.2",
     "@storybook/testing-library": "^0.2.0",
+    "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/jest-dom": "^6.1.1",
     "@testing-library/react": "^14.0.0",
     "@vitejs/plugin-react": "^4.0.4",
@@ -45,8 +46,11 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-storybook": "^0.6.13",
     "jsdom": "^22.1.0",
+    "postcss-syntax": "^0.36.2",
     "prettier": "3.0.2",
     "storybook": "^7.3.2",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
     "vitest": "^0.34.2"
   }
 }
