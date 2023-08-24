@@ -12,7 +12,8 @@
       "ignorePackages",
       { "ts": "never", "tsx": "never" }
     ],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "no-restricted-imports": ["error", { "patterns": ["../*"] }]
   },
   "globals": { "React": true }
 }
