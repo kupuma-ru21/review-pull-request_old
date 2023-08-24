@@ -14,7 +14,8 @@
     "compile": "tsc",
     "cSpell": "pnpm cspell 'src/**/*.{ts,tsx}'",
     "test": "vitest",
-    "prepare": "panda codegen"
+    "prepare": "panda codegen",
+    "lint:style": "pnpm stylelint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@types/node": "20.5.3",
