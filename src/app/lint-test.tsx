@@ -6,7 +6,7 @@ const LintTest = ({ isTestBool }: { isTestBool: boolean }) => {
   }, []);
 
   return (
-    <button onClick={click} type="button">
+    <button type="button" onClick={click}>
       {isTestBool ? <p>hello</p> : null}
     </button>
   );
