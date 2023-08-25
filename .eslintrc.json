@@ -23,8 +23,7 @@
       2,
       { "namedComponents": "arrow-function" }
     ],
-    "react/jsx-boolean-value": "error",
-    "react/jsx-no-bind": ["error", { "ignoreDOMComponents": false }]
+    "react/jsx-boolean-value": "error"
   },
   "globals": { "React": true }
 }
