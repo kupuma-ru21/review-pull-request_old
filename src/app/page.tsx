@@ -4,7 +4,7 @@ import LintTest from './lint-test';
 const Home = () => (
   <>
     <h1 className={css({ fontSize: '16px', fontWeight: 'bold' })}>Home</h1>
-    <LintTest isTestBool />
+    <LintTest isTestBool items={[]} />
   </>
 );
 

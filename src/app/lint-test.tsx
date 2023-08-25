@@ -1,9 +1,18 @@
 import { useCallback } from 'react';
 
-const LintTest = ({ isTestBool }: { isTestBool: boolean }) => {
+const initialItems: [] = [];
+// https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md
+
+const LintTest = ({
+  isTestBool,
+  items = initialItems,
+}: {
+  isTestBool: boolean;
+  items: [];
+}) => {
   const click = useCallback(() => {
-    console.log('Hello!');
-  }, []);
+    console.log(items);
+  }, [items]);
 
   return (
     <>
