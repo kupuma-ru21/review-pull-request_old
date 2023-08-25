@@ -3,12 +3,8 @@
     "next/core-web-vitals",
     "plugin:storybook/recommended",
     "airbnb",
-    "airbnb/hooks",
-    "plugin:@typescript-eslint/recommended"
+    "airbnb/hooks"
   ],
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "root": true,
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/extensions": [
@@ -17,8 +13,7 @@
       { "ts": "never", "tsx": "never" }
     ],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "no-restricted-imports": ["error", { "patterns": ["../*"] }],
-    "@typescript-eslint/consistent-type-imports": "error"
+    "no-restricted-imports": ["error", { "patterns": ["../*"] }]
   },
   "globals": { "React": true }
 }
