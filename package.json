@@ -52,7 +52,6 @@
     "storybook": "^7.3.2",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
-    "vite-tsconfig-paths": "^4.2.0",
     "vitest": "^0.34.2"
   }
 }
